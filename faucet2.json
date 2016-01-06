@@ -1,0 +1,207 @@
+/**
+* Comment: 
+* 04.01.2016: Included the roomplan array in items
+* 05.01.2016: Included the groups array in items
+**/
+
+{
+  "collection": {
+    "version": "1.0",
+    "href": "http://schell.sws/devices/busextenders/3/faucet",
+    "links": [
+      {
+        "rel": "image",
+        "href": "http://schell.sws/devices/busextenders/3/faucet/avatar.jpg"
+      },
+      {
+        "rel": "template",
+        "href": "http://schell.sws/template/templateFaucet.json"
+      }
+    ],
+    "items": [
+      {
+        "href": "http://schell.sws/devices/busextenders/3/faucet",
+        "data": [
+          {
+            "name": "faucetId",
+            "value": 7,
+            "prompt": "Faucet Id"
+          },
+          {
+            "name": "model_name",
+            "value": "Celis E –Electronic basin tap",
+            "prompt": "Model Name"
+          },
+          {
+            "name": "model_info",
+            "value": "HD-M Battery operated",
+            "prompt": "Model Info"
+          },
+          {
+            "name": "model_id",
+            "value": 12290699,
+            "prompt": "Model Id"
+          },
+          {
+            "name": "serial",
+            "value": "AA:BB:CC:DD:EE:FF",
+            "prompt": "Serial Number of product"
+          },
+          {
+            "name": "firmware",
+            "value": "v2.04",
+            "prompt": "Firmware Version"
+          },
+          {
+            "name": "bootloader",
+            "value": "v2.00",
+            "prompt": "Bootloader Version"
+          },
+          {
+            "name": "production_date",
+            "value": "31.12.2015",
+            "prompt": "Manufacturing Date"
+          },
+          {
+            "name": "operation_hours_total",
+            "value": 20,
+            "prompt": "Total Operating hours of the device"
+          },
+          {
+            "name": "operation_hours_since_last_reset",
+            "value": 19,
+            "prompt": "Total Operating hours of the device since last Reset"
+          },
+          {
+            "name": "switch_count_total",
+            "value": 2390,
+            "prompt": "Total Switch Count"
+          },
+          {
+            "name": "switch_count_since_last_reset",
+            "value": 2270,
+            "prompt": "Total Switch Count since last Reset"
+          },
+          {
+            "name": "givenName",
+            "value": "Kitchen Faucet",
+            "prompt": "Name Given"
+          },
+          {
+            "name": "valveOn",
+            "value": true,
+            "prompt": "Valve State"
+          },
+          {
+            "name": "manual_programming_active",
+            "value": true,
+            "prompt": "Manual Programing state"
+          },
+          {
+            "name": "sensor_detection_range",
+            "value": 2,
+            "prompt": "Sensor Detection Range"
+          },
+          {
+            "name": "actuating_force",
+            "value": 5,
+            "prompt": "Actuating Force"
+          },
+          {
+            "name": "max_runtime",
+            "value": 10,
+            "prompt": "Maximum Runtime"
+          },
+          {
+            "name": "post_runtime",
+            "value": 2000,
+            "prompt": "Post Runtime"
+          },
+          {
+            "name": "thermal_disinfection",
+            "value": false,
+            "prompt": "Thermal Disinfection"
+          },
+          {
+            "name": "thermal_disinfection_runtime",
+            "value": 600,
+            "prompt": "Thermal Disinfection Runtime"
+          },
+          {
+            "name": "stagnation_flush_active",
+            "value": false,
+            "prompt": "Stagnation Flush State"
+          },
+          {
+            "name": "stagnation_flush_mode",
+            "value": "Satic Mode",
+            "prompt": "Stagnation Flush Mode"
+          },
+          {
+            "name": "stagnation_flush_runtime",
+            "value": 600,
+            "prompt": "Stagnation Flush Runtime"
+          },
+          {
+            "name": "stagnation_flush_cycle_time",
+            "value": 3,
+            "prompt": "Stagnation Flush Cycle Time"
+          },
+          {
+            "name": "power_saving_active",
+            "value": true,
+            "prompt": "Power Saving state"
+          },
+          {
+            "name": "power_saving_activation_time",
+            "value": 254,
+            "prompt": "Power Saving activation time"
+          },
+          {
+            "name": "cleaning_stop_active",
+            "value": false,
+            "prompt": "Cleaning Stop Active"
+          },
+          {
+            "name": "cleaning_stop_runtime",
+            "value": 60,
+            "prompt": "Cleaning Stop runtime"
+          },
+          {
+            "name": "non_stop_operation_active",
+            "value": false,
+            "prompt": "Non-stop Operation State"
+          },
+          {
+            "name": "non_stop_operation_runtime",
+            "value": 120,
+            "prompt": "Non-stop Operation Runtime"
+          },
+          {
+            "name": "roomplans",
+            "array": [1,2,3,4,5,6,7],
+            "prompt": "Roomplans membership"
+          },
+          {
+            "name": "groups",
+            "array": [1,2,3,4,5,6,7],
+            "prompt": "Groups Membership"
+          }
+        ]
+      }
+    ],
+    "queries": [
+      {
+        "rel": "search",
+        "href": "http://schell.sws/devices/busextenders/search",
+        "prompt": "Search",
+        "data": [
+          {
+            "name": "search",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }
+}
